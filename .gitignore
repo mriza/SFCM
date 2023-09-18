@@ -1,0 +1,15 @@
+# Files
+
+config.h
+config.py
+*.cfg
+
+
+# Directories
+
+bin
+include
+lib
+lib64
+__pycache__
+share
