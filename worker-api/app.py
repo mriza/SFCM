@@ -40,7 +40,7 @@ def chart():
     chart_filename = 'static/chart.png'
     plt.savefig(chart_filename)
 
-    return render_template('chart.html', chart_filename=chart_filename)
+    return render_template('motor1.html', chart_filename=chart_filename)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)
